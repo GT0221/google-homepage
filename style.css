@@ -1,0 +1,162 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(83, 81, 81);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.about {
+    position: relative;
+    top: 6px;
+    left: 6px;
+}
+
+.store {
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+.gmail {
+    position: relative;
+    top: 6px;
+    left: 80em;
+}
+
+.images {
+    position: relative;
+    top: 6px;
+    left: 81em;
+}
+
+svg {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 20px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    fill: var(--color-gray-500);
+}
+.sign-in {
+    width: 70px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    left: 80%;
+    border: none;
+    border-radius: 5%;
+    background-color: #4285f4;
+    color: white;
+    font-size: 14px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 109px;
+}
+.bar{
+    margin:0 auto;
+    margin-top: 20px;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+.bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+}
+.search-bar {
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    text-indent: 50px;
+    outline: none;
+}
+.voice {
+    height:20px;
+    position:relative;
+    top:5px;
+    left:10px;
+}
+.magnifying-glass {
+    height: 17px;
+    position: relative;
+    top: 5px;
+    right: 85%;
+}
+.search-buttons {
+    text-align: center;
+    padding-top: 40px;
+}
+.search-buttons .gs-button {
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    color:#5F6368;
+}
+.search-buttons .fl-button {
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: #f2f2f2;;
+    color:#5F6368;
+}
+.bottom-nav {
+    margin-top: 140px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #f2f2f2;
+}
+.advertising {
+    position: relative;
+    left: 20px;
+}
+.business {
+    position: relative;
+    left: 50px;
+}
+.search-info {
+    position: relative;
+    left: 70px;
+}
+.privacy {
+    position: relative;
+    left: 930px;
+    background-color: #f2f2f2;
+}
+.terms {
+    position: relative;
+    left: 950px;
+    background-color: #f2f2f2;
+}
+.settings {
+    position: relative;
+    left: 980px;
+    background-color: #f2f2f2;
+}
+
+
+
